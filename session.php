@@ -5,7 +5,7 @@ if(isset($_SESSION['teste']))
 {
 	$tst = $_SESSION['teste'];
 	unset($_SESSION['teste']);
-	echo $tst.PHP_EOL;
+	echo $tst.PHP_EOL; // teste 123
 	print_r($_SESSION);	
 }
 else
